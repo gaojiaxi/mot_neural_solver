@@ -9,10 +9,10 @@ import pathlib
 PROJECT_PATH = pathlib.Path(__file__).parent.parent.parent.absolute()
 
 # Absolute path where datasets and processed data (e.g. precomputed embeddings) will be stored
-DATA_PATH = None
+DATA_PATH = '/home/gaojiaxi/tracker_data'
 
 # Absolute path where results (e.g. output result files, model weights) will be stored
-OUTPUT_PATH = None
+OUTPUT_PATH = 'home/gaojiaxi/tracker_output'
 
 if DATA_PATH is None:
     DATA_PATH = osp.join(PROJECT_PATH, 'data')
